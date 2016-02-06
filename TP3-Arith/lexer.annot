@@ -1,0 +1,845 @@
+"lexer.mll" 9 136 142 "lexer.mll" 9 136 153
+type(
+  Lexing.lexbuf -> Lexing.position * Lexing.position
+)
+ident(
+  def current_pos "lexer.ml" 16 217 217 "lexer.ml" 1 0 -1
+)
+"lexer.mll" 9 136 154 "lexer.mll" 9 136 155
+type(
+  Lexing.lexbuf
+)
+ident(
+  def b "lexer.mll" 10 158 162 "lexer.mll" 11 180 198
+)
+"lexer.mll" 10 158 162 "lexer.mll" 10 158 176
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_start_p
+)
+"lexer.mll" 10 158 177 "lexer.mll" 10 158 178
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref b "lexer.mll" 9 136 154 "lexer.mll" 9 136 155
+)
+"lexer.mll" 10 158 162 "lexer.mll" 10 158 178
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"lexer.mll" 11 180 184 "lexer.mll" 11 180 196
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_end_p
+)
+"lexer.mll" 11 180 197 "lexer.mll" 11 180 198
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref b "lexer.mll" 9 136 154 "lexer.mll" 9 136 155
+)
+"lexer.mll" 11 180 184 "lexer.mll" 11 180 198
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"lexer.mll" 10 158 162 "lexer.mll" 11 180 198
+type(
+  Lexing.position * Lexing.position
+)
+"lexer.ml" 16 217 221 "lexer.ml" 16 217 239
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "lexer.ml" 123 6568 6568 "lexer.ml" 1 0 -1
+)
+"lexer.ml" 18 265 268 "lexer.ml" 22 545 590
+type(
+  string
+)
+"lexer.ml" 24 616 619 "lexer.ml" 28 896 941
+type(
+  string
+)
+"lexer.ml" 30 967 970 "lexer.ml" 34 1247 1292
+type(
+  string
+)
+"lexer.ml" 36 1316 1319 "lexer.ml" 71 3766 3827
+type(
+  string
+)
+"lexer.ml" 73 3851 3854 "lexer.ml" 108 6301 6362
+type(
+  string
+)
+"lexer.ml" 110 6390 6393 "lexer.ml" 110 6390 6395
+type(
+  string
+)
+"lexer.ml" 112 6426 6429 "lexer.ml" 112 6426 6431
+type(
+  string
+)
+"lexer.ml" 114 6462 6465 "lexer.ml" 114 6462 6467
+type(
+  string
+)
+"lexer.ml" 116 6496 6499 "lexer.ml" 116 6496 6501
+type(
+  string
+)
+"lexer.ml" 118 6530 6533 "lexer.ml" 118 6530 6535
+type(
+  string
+)
+"lexer.ml" 120 6558 6561 "lexer.ml" 120 6558 6563
+type(
+  string
+)
+"lexer.ml" 16 217 242 "lexer.ml" 121 6565 6566
+type(
+  Lexing.lex_tables
+)
+"lexer.ml" 123 6568 6576 "lexer.ml" 123 6568 6581
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  def token "lexer.ml" 123 6568 6568 "lexer.ml" 1 0 -1
+)
+"lexer.ml" 123 6568 6582 "lexer.ml" 123 6568 6588
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexer.ml" 124 6591 6595 "lexer.ml" 124 6591 6625
+)
+"lexer.ml" 124 6591 6595 "lexer.ml" 124 6591 6616
+type(
+  Lexing.lexbuf -> int -> Parser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "lexer.ml" 125 6626 6630 "lexer.ml" 125 6626 6651
+)
+"lexer.ml" 124 6591 6617 "lexer.ml" 124 6591 6623
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 123 6568 6582 "lexer.ml" 123 6568 6588
+)
+"lexer.ml" 124 6591 6624 "lexer.ml" 124 6591 6625
+type(
+  int
+)
+"lexer.ml" 124 6591 6595 "lexer.ml" 124 6591 6625
+call(
+  tail
+)
+type(
+  Parser.token
+)
+"lexer.ml" 125 6626 6630 "lexer.ml" 125 6626 6651
+type(
+  Lexing.lexbuf -> int -> Parser.token
+)
+ident(
+  def __ocaml_lex_token_rec "lexer.ml" 123 6568 6568 "lexer.ml" 1 0 -1
+)
+"lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexer.ml" 125 6626 6659 "lexer.ml" 212 8002 8107
+)
+"lexer.ml" 125 6626 6659 "lexer.ml" 125 6626 6676
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexer.ml" 126 6679 6681 "lexer.ml" 212 8002 8107
+)
+"lexer.ml" 126 6679 6687 "lexer.ml" 126 6679 6700
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"lexer.ml" 126 6679 6701 "lexer.ml" 126 6679 6719
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "lexer.ml" 16 217 221 "lexer.ml" 16 217 239
+)
+"lexer.ml" 126 6679 6720 "lexer.ml" 126 6679 6737
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexer.ml" 125 6626 6659 "lexer.ml" 125 6626 6676
+)
+"lexer.ml" 126 6679 6738 "lexer.ml" 126 6679 6744
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+)
+"lexer.ml" 126 6679 6687 "lexer.ml" 126 6679 6744
+call(
+  stack
+)
+type(
+  int
+)
+"lexer.ml" 127 6750 6758 "lexer.ml" 127 6750 6759
+type(
+  int
+)
+"lexer.mll" 25 6780 6788 "lexer.mll" 25 6780 6796
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  ext_ref Lexing.new_line
+)
+"lexer.mll" 25 6780 6797 "lexer.mll" 25 6780 6803
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+)
+"lexer.mll" 25 6780 6788 "lexer.mll" 25 6780 6803
+call(
+  stack
+)
+type(
+  unit
+)
+"lexer.mll" 25 6780 6805 "lexer.mll" 25 6780 6810
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  int_ref token "lexer.ml" 123 6568 6576 "lexer.ml" 123 6568 6581
+)
+"lexer.mll" 25 6780 6811 "lexer.mll" 25 6780 6817
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+)
+"lexer.mll" 25 6780 6805 "lexer.mll" 25 6780 6817
+call(
+  tail
+)
+type(
+  Parser.token
+)
+"lexer.mll" 25 6780 6786 "lexer.mll" 25 6780 6819
+type(
+  Parser.token
+)
+"lexer.ml" 132 6838 6842 "lexer.ml" 132 6838 6843
+type(
+  int
+)
+"lexer.mll" 28 6864 6872 "lexer.mll" 28 6864 6879
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  int_ref comment "lexer.ml" 214 8109 8113 "lexer.ml" 214 8109 8120
+)
+"lexer.mll" 28 6864 6880 "lexer.mll" 28 6864 6886
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+)
+"lexer.mll" 28 6864 6870 "lexer.mll" 28 6864 6888
+call(
+  tail
+)
+type(
+  Parser.token
+)
+"lexer.ml" 137 6907 6911 "lexer.ml" 137 6907 6912
+type(
+  int
+)
+"lexer.mll" 31 6933 6939 "lexer.mll" 31 6933 6956
+type(
+  Parser.token
+)
+"lexer.ml" 142 6975 6979 "lexer.ml" 142 6975 6980
+type(
+  int
+)
+"lexer.mll" 33 7001 7007 "lexer.mll" 33 7001 7021
+type(
+  Parser.token
+)
+"lexer.ml" 147 7040 7044 "lexer.ml" 147 7040 7045
+type(
+  int
+)
+"lexer.mll" 36 7066 7074 "lexer.mll" 36 7066 7079
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  int_ref token "lexer.ml" 123 6568 6576 "lexer.ml" 123 6568 6581
+)
+"lexer.mll" 36 7066 7080 "lexer.mll" 36 7066 7086
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+)
+"lexer.mll" 36 7066 7072 "lexer.mll" 36 7066 7088
+call(
+  tail
+)
+type(
+  Parser.token
+)
+"lexer.ml" 152 7107 7111 "lexer.ml" 152 7107 7112
+type(
+  int
+)
+"lexer.mll" 38 7137 7155 "lexer.mll" 38 7137 7161
+type(
+  string
+)
+ident(
+  def valeur "lexer.mll" 39 7281 7289 "lexer.mll" 39 7281 7324
+)
+"lexer.ml" 157 7179 7181 "lexer.ml" 157 7179 7198
+type(
+  Lexing.lexbuf -> int -> int -> string
+)
+ident(
+  ext_ref Lexing.sub_lexeme
+)
+"lexer.ml" 157 7179 7199 "lexer.ml" 157 7179 7205
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+)
+"lexer.ml" 157 7179 7206 "lexer.ml" 157 7179 7212
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+)
+"lexer.ml" 157 7179 7206 "lexer.ml" 157 7179 7233
+type(
+  int
+)
+"lexer.ml" 157 7179 7234 "lexer.ml" 157 7179 7240
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+)
+"lexer.ml" 157 7179 7234 "lexer.ml" 157 7179 7260
+type(
+  int
+)
+"lexer.ml" 157 7179 7181 "lexer.ml" 157 7179 7260
+call(
+  stack
+)
+type(
+  string
+)
+"lexer.mll" 39 7281 7302 "lexer.mll" 39 7281 7315
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"lexer.mll" 39 7281 7316 "lexer.mll" 39 7281 7322
+type(
+  string
+)
+ident(
+  int_ref valeur "lexer.mll" 38 7137 7155 "lexer.mll" 38 7137 7161
+)
+"lexer.mll" 39 7281 7301 "lexer.mll" 39 7281 7323
+type(
+  int
+)
+"lexer.mll" 39 7281 7289 "lexer.mll" 39 7281 7324
+type(
+  Parser.token
+)
+"lexer.ml" 153 7116 7116 "lexer.mll" 39 7281 7324
+type(
+  Parser.token
+)
+"lexer.ml" 162 7343 7347 "lexer.ml" 162 7343 7348
+type(
+  int
+)
+"lexer.mll" 42 7369 7375 "lexer.mll" 42 7369 7388
+type(
+  Parser.token
+)
+"lexer.ml" 167 7407 7411 "lexer.ml" 167 7407 7412
+type(
+  int
+)
+"lexer.mll" 44 7433 7439 "lexer.mll" 44 7433 7447
+type(
+  Parser.token
+)
+"lexer.ml" 172 7466 7470 "lexer.ml" 172 7466 7471
+type(
+  int
+)
+"lexer.mll" 46 7492 7498 "lexer.mll" 46 7492 7507
+type(
+  Parser.token
+)
+"lexer.ml" 177 7526 7530 "lexer.ml" 177 7526 7531
+type(
+  int
+)
+"lexer.mll" 48 7552 7558 "lexer.mll" 48 7552 7566
+type(
+  Parser.token
+)
+"lexer.ml" 182 7585 7589 "lexer.ml" 182 7585 7591
+type(
+  int
+)
+"lexer.mll" 50 7612 7618 "lexer.mll" 50 7612 7627
+type(
+  Parser.token
+)
+"lexer.ml" 187 7646 7650 "lexer.ml" 187 7646 7652
+type(
+  int
+)
+"lexer.mll" 52 7673 7679 "lexer.mll" 52 7673 7689
+type(
+  Parser.token
+)
+"lexer.ml" 192 7708 7712 "lexer.ml" 192 7708 7714
+type(
+  int
+)
+"lexer.mll" 54 7735 7741 "lexer.mll" 54 7735 7751
+type(
+  Parser.token
+)
+"lexer.ml" 197 7770 7774 "lexer.ml" 197 7770 7776
+type(
+  int
+)
+"lexer.mll" 56 7797 7803 "lexer.mll" 56 7797 7810
+type(
+  Parser.token
+)
+"lexer.ml" 202 7829 7833 "lexer.ml" 202 7829 7835
+type(
+  int
+)
+"lexer.mll" 59 7856 7864 "lexer.mll" 59 7856 7869
+type(
+  Error.error -> Ast.position -> Parser.token
+)
+ident(
+  ext_ref Error.error
+)
+"lexer.mll" 59 7856 7886 "lexer.mll" 59 7856 7892
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"lexer.mll" 59 7856 7893 "lexer.mll" 59 7856 7899
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+)
+"lexer.mll" 59 7856 7885 "lexer.mll" 59 7856 7900
+call(
+  stack
+)
+type(
+  string
+)
+"lexer.mll" 59 7856 7870 "lexer.mll" 59 7856 7901
+type(
+  Error.error
+)
+"lexer.mll" 59 7856 7903 "lexer.mll" 59 7856 7914
+type(
+  Lexing.lexbuf -> Ast.position
+)
+ident(
+  int_ref current_pos "lexer.mll" 9 136 142 "lexer.mll" 9 136 153
+)
+"lexer.mll" 59 7856 7915 "lexer.mll" 59 7856 7921
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+)
+"lexer.mll" 59 7856 7902 "lexer.mll" 59 7856 7922
+call(
+  stack
+)
+type(
+  Ast.position
+)
+"lexer.mll" 59 7856 7862 "lexer.mll" 59 7856 7924
+call(
+  tail
+)
+type(
+  Parser.token
+)
+"lexer.ml" 207 7943 7947 "lexer.ml" 207 7943 7949
+type(
+  int
+)
+"lexer.mll" 62 7970 7976 "lexer.mll" 62 7970 7983
+type(
+  Parser.token
+)
+"lexer.ml" 212 8002 8006 "lexer.ml" 212 8002 8023
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexer.ml" 212 8002 8027 "lexer.ml" 212 8002 8107
+)
+"lexer.ml" 212 8002 8027 "lexer.ml" 212 8002 8033
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+)
+"lexer.ml" 212 8002 8027 "lexer.ml" 212 8002 8052
+type(
+  Lexing.lexbuf -> unit
+)
+"lexer.ml" 212 8002 8053 "lexer.ml" 212 8002 8059
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+)
+"lexer.ml" 212 8002 8027 "lexer.ml" 212 8002 8059
+call(
+  stack
+)
+type(
+  unit
+)
+"lexer.ml" 212 8002 8061 "lexer.ml" 212 8002 8082
+type(
+  Lexing.lexbuf -> int -> Parser.token
+)
+ident(
+  int_ref __ocaml_lex_token_rec "lexer.ml" 125 6626 6630 "lexer.ml" 125 6626 6651
+)
+"lexer.ml" 212 8002 8083 "lexer.ml" 212 8002 8089
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 125 6626 6652 "lexer.ml" 125 6626 6658
+)
+"lexer.ml" 212 8002 8090 "lexer.ml" 212 8002 8107
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexer.ml" 212 8002 8006 "lexer.ml" 212 8002 8023
+)
+"lexer.ml" 212 8002 8061 "lexer.ml" 212 8002 8107
+call(
+  tail
+)
+type(
+  Parser.token
+)
+"lexer.ml" 212 8002 8027 "lexer.ml" 212 8002 8107
+type(
+  Parser.token
+)
+"lexer.ml" 126 6679 6681 "lexer.ml" 212 8002 8107
+type(
+  Parser.token
+)
+"lexer.ml" 214 8109 8113 "lexer.ml" 214 8109 8120
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  def comment "lexer.ml" 123 6568 6568 "lexer.ml" 1 0 -1
+)
+"lexer.ml" 214 8109 8121 "lexer.ml" 214 8109 8127
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexer.ml" 215 8130 8134 "lexer.ml" 215 8130 8167
+)
+"lexer.ml" 215 8130 8134 "lexer.ml" 215 8130 8157
+type(
+  Lexing.lexbuf -> int -> Parser.token
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "lexer.ml" 216 8168 8172 "lexer.ml" 216 8168 8195
+)
+"lexer.ml" 215 8130 8158 "lexer.ml" 215 8130 8164
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 214 8109 8121 "lexer.ml" 214 8109 8127
+)
+"lexer.ml" 215 8130 8165 "lexer.ml" 215 8130 8167
+type(
+  int
+)
+"lexer.ml" 215 8130 8134 "lexer.ml" 215 8130 8167
+call(
+  tail
+)
+type(
+  Parser.token
+)
+"lexer.ml" 216 8168 8172 "lexer.ml" 216 8168 8195
+type(
+  Lexing.lexbuf -> int -> Parser.token
+)
+ident(
+  def __ocaml_lex_comment_rec "lexer.ml" 123 6568 6568 "lexer.ml" 1 0 -1
+)
+"lexer.ml" 216 8168 8196 "lexer.ml" 216 8168 8202
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "lexer.ml" 216 8168 8203 "lexer.ml" 233 8537 8644
+)
+"lexer.ml" 216 8168 8203 "lexer.ml" 216 8168 8220
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexer.ml" 217 8223 8225 "lexer.ml" 233 8537 8644
+)
+"lexer.ml" 217 8223 8231 "lexer.ml" 217 8223 8244
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"lexer.ml" 217 8223 8245 "lexer.ml" 217 8223 8263
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "lexer.ml" 16 217 221 "lexer.ml" 16 217 239
+)
+"lexer.ml" 217 8223 8264 "lexer.ml" 217 8223 8281
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexer.ml" 216 8168 8203 "lexer.ml" 216 8168 8220
+)
+"lexer.ml" 217 8223 8282 "lexer.ml" 217 8223 8288
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 216 8168 8196 "lexer.ml" 216 8168 8202
+)
+"lexer.ml" 217 8223 8231 "lexer.ml" 217 8223 8288
+call(
+  stack
+)
+type(
+  int
+)
+"lexer.ml" 218 8294 8302 "lexer.ml" 218 8294 8303
+type(
+  int
+)
+"lexer.mll" 65 8324 8337 "lexer.mll" 65 8324 8342
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  int_ref token "lexer.ml" 123 6568 6576 "lexer.ml" 123 6568 6581
+)
+"lexer.mll" 65 8324 8343 "lexer.mll" 65 8324 8349
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 216 8168 8196 "lexer.ml" 216 8168 8202
+)
+"lexer.mll" 65 8324 8335 "lexer.mll" 65 8324 8351
+call(
+  tail
+)
+type(
+  Parser.token
+)
+"lexer.ml" 223 8370 8374 "lexer.ml" 223 8370 8375
+type(
+  int
+)
+"lexer.mll" 66 8396 8409 "lexer.mll" 66 8396 8416
+type(
+  Lexing.lexbuf -> Parser.token
+)
+ident(
+  int_ref comment "lexer.ml" 214 8109 8113 "lexer.ml" 214 8109 8120
+)
+"lexer.mll" 66 8396 8417 "lexer.mll" 66 8396 8423
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 216 8168 8196 "lexer.ml" 216 8168 8202
+)
+"lexer.mll" 66 8396 8407 "lexer.mll" 66 8396 8425
+call(
+  tail
+)
+type(
+  Parser.token
+)
+"lexer.ml" 228 8444 8448 "lexer.ml" 228 8444 8449
+type(
+  int
+)
+"lexer.mll" 67 8470 8482 "lexer.mll" 67 8470 8490
+type(
+  string -> Parser.token
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"lexer.mll" 67 8470 8491 "lexer.mll" 67 8470 8516
+type(
+  string
+)
+"lexer.mll" 67 8470 8480 "lexer.mll" 67 8470 8518
+call(
+  tail
+)
+type(
+  Parser.token
+)
+"lexer.ml" 233 8537 8541 "lexer.ml" 233 8537 8558
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "lexer.ml" 233 8537 8562 "lexer.ml" 233 8537 8644
+)
+"lexer.ml" 233 8537 8562 "lexer.ml" 233 8537 8568
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 216 8168 8196 "lexer.ml" 216 8168 8202
+)
+"lexer.ml" 233 8537 8562 "lexer.ml" 233 8537 8587
+type(
+  Lexing.lexbuf -> unit
+)
+"lexer.ml" 233 8537 8588 "lexer.ml" 233 8537 8594
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 216 8168 8196 "lexer.ml" 216 8168 8202
+)
+"lexer.ml" 233 8537 8562 "lexer.ml" 233 8537 8594
+call(
+  stack
+)
+type(
+  unit
+)
+"lexer.ml" 233 8537 8596 "lexer.ml" 233 8537 8619
+type(
+  Lexing.lexbuf -> int -> Parser.token
+)
+ident(
+  int_ref __ocaml_lex_comment_rec "lexer.ml" 216 8168 8172 "lexer.ml" 216 8168 8195
+)
+"lexer.ml" 233 8537 8620 "lexer.ml" 233 8537 8626
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "lexer.ml" 216 8168 8196 "lexer.ml" 216 8168 8202
+)
+"lexer.ml" 233 8537 8627 "lexer.ml" 233 8537 8644
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "lexer.ml" 233 8537 8541 "lexer.ml" 233 8537 8558
+)
+"lexer.ml" 233 8537 8596 "lexer.ml" 233 8537 8644
+call(
+  tail
+)
+type(
+  Parser.token
+)
+"lexer.ml" 233 8537 8562 "lexer.ml" 233 8537 8644
+type(
+  Parser.token
+)
+"lexer.ml" 217 8223 8225 "lexer.ml" 233 8537 8644
+type(
+  Parser.token
+)
